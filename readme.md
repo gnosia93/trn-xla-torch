@@ -1,6 +1,6 @@
 * [TorchScript and PyTorch JIT | Deep Dive](https://www.youtube.com/watch?v=2awmrMRf0dA)
 
-## VS Code ##
+## VSCode ##
 
 Access through VS Code remote server
 With Visual Studio Code installed on your local machine, you can use the Remote-SSH command to edit and run files that are stored on a Neuron instance. See the VS Code article for additional details.
