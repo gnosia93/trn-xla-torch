@@ -10,3 +10,9 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 ## HW ##
 
 * [CPU, GPU, and NPU](https://levysoft.medium.com/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747)
+
+
+
+## ref ##
+
+* [파이썬 코딩도장](https://dojang.io/course/view.php?id=7)
