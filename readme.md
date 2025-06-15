@@ -13,6 +13,8 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
 
 
+### 🤗 Optimum Neuron ###
+* [Optimum Neuron](https://huggingface.co/docs/optimum-neuron/index)
 
 
 
