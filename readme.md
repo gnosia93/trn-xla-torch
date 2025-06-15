@@ -7,7 +7,7 @@ XLA (Accelerated Linear Algebra) is an open-source compiler for machine learning
 As a part of the OpenXLA project, XLA is built collaboratively by industry-leading ML hardware and software companies, including Alibaba, Amazon Web Services, AMD, Apple, Arm, Google, Intel, Meta, and NVIDIA.
 
 
-## AWS AI Accelerator ##
+## AWS Accelerators ##
 
 * [Setting up AWS Trainium for Hugging Face Transformers](https://www.philschmid.de/setup-aws-trainium)
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
