@@ -7,6 +7,6 @@ XLA (Accelerated Linear Algebra) is an open-source compiler for machine learning
 As a part of the OpenXLA project, XLA is built collaboratively by industry-leading ML hardware and software companies, including Alibaba, Amazon Web Services, AMD, Apple, Arm, Google, Intel, Meta, and NVIDIA.
 
 
-## hW ##
+## HW ##
 
 * [CPU, GPU, and NPU](https://levysoft.medium.com/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747)
