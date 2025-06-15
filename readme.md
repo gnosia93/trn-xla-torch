@@ -10,7 +10,7 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 ## AWS AI Accelerator ##
 
 * [Setting up AWS Trainium for Hugging Face Transformers](https://www.philschmid.de/setup-aws-trainium)
-
+* [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
 
 
 
