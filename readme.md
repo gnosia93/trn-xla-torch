@@ -19,9 +19,7 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 
 * [PyTorch/XLA](https://docs.pytorch.org/xla/release/r2.7/index.html)
 * [PJRT Plugin to Accelerate Machine Learning](https://opensource.googleblog.com/2024/03/pjrt-plugin-to-accelerate-machine-learning.html)
-
-
-## [NKI](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html) ##
+* [NKI](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html) 
 Neuron Kernel Interface (NKI) is a bare-metal language and compiler for directly programming NeuronDevices available on AWS Trn/Inf instances. You can use NKI to develop, optimize and run new operators directly on NeuronCores while making full use of available compute and memory resources. NKI empowers ML developers to self-serve and invent new ways to use the NeuronCore hardware, starting NeuronCores v2 (Trainium1) and beyond.
 
 ### AWS Accelerators ###
