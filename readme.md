@@ -30,7 +30,7 @@ Neuron Kernel Interface (NKI) is a bare-metal language and compiler for directly
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
 
 
-## Torch Script ##
+## [Torch Script](https://docs.pytorch.org/docs/main/jit.html) ##
 
 * [딥러닝 모델 배포하기 #01 - MLOps PipeLine과 연산 최적화 / 모델 경량화](https://happy-jihye.github.io/dl/torch-1/)
 * [딥러닝 모델 배포하기 #02 - TorchScript & Pytorch JIT](https://happy-jihye.github.io/dl/torch-2/)
