@@ -34,6 +34,7 @@ Neuron Kernel Interface (NKI) is a bare-metal language and compiler for directly
 
 * [딥러닝 모델 배포하기 #01 - MLOps PipeLine과 연산 최적화 / 모델 경량화](https://happy-jihye.github.io/dl/torch-1/)
 * [딥러닝 모델 배포하기 #02 - TorchScript & Pytorch JIT](https://happy-jihye.github.io/dl/torch-2/)
+* [Introduction to TorchScript](https://docs.pytorch.org/tutorials/beginner/Intro_to_TorchScript_tutorial.html)
 * [Loading a TorchScript Model in C++](https://docs.pytorch.org/tutorials/advanced/cpp_export.html)
 
 
