@@ -24,13 +24,13 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 ## [NKI](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html) ##
 Neuron Kernel Interface (NKI) is a bare-metal language and compiler for directly programming NeuronDevices available on AWS Trn/Inf instances. You can use NKI to develop, optimize and run new operators directly on NeuronCores while making full use of available compute and memory resources. NKI empowers ML developers to self-serve and invent new ways to use the NeuronCore hardware, starting NeuronCores v2 (Trainium1) and beyond.
 
-## AWS Accelerators ##
+### AWS Accelerators ###
 
 * [Setting up AWS Trainium for Hugging Face Transformers](https://www.philschmid.de/setup-aws-trainium)
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
 
 
-## Model Deployment ##
+## Torch Script ##
 
 * [딥러닝 모델 배포하기 #01 - MLOps PipeLine과 연산 최적화 / 모델 경량화](https://happy-jihye.github.io/dl/torch-1/)
 * [딥러닝 모델 배포하기 #02 - TorchScript & Pytorch JIT](https://happy-jihye.github.io/dl/torch-2/)
