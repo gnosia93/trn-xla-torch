@@ -29,3 +29,4 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 
 * [CPU, GPU, and NPU](https://levysoft.medium.com/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747)
 * [파이썬 코딩도장](https://dojang.io/course/view.php?id=7)
+* [Introduction to KubernetesExecutor and KubernetesPodOperator](https://medium.com/uncanny-recursions/introduction-to-kubernetesexecutor-and-kubernetespodoperator-ae9bb809e3b3)
