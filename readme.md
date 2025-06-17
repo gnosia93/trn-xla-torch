@@ -47,3 +47,7 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [CPU, GPU, and NPU](https://levysoft.medium.com/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747)
 * [파이썬 코딩도장](https://dojang.io/course/view.php?id=7)
 * [Introduction to KubernetesExecutor and KubernetesPodOperator](https://medium.com/uncanny-recursions/introduction-to-kubernetesexecutor-and-kubernetespodoperator-ae9bb809e3b3)
+
+---
+
+* https://developer.arm.com/documentation/102374/0102/Data-processing---arithmetic-and-logic-operations
