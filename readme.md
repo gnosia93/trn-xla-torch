@@ -22,10 +22,11 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 * [Neuron Kernel Interface (NKI)](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html)  
 a bare-metal language and compiler for directly programming NeuronDevices available on AWS Trn/Inf instances. You can use NKI to develop, optimize and run new operators directly on NeuronCores while making full use of available compute and memory resources. NKI empowers ML developers to self-serve and invent new ways to use the NeuronCore hardware, starting NeuronCores v2 (Trainium1) and beyond.
 
-### AWS Accelerators ###
+#### AWS Accelerators ####
 
 * [Setting up AWS Trainium for Hugging Face Transformers](https://www.philschmid.de/setup-aws-trainium)
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
+* [Amazon Trainium and Inferentia workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/06367dba-1077-4a51-967c-477dbbbb48b1/en-US/inf2-lab/stable-diffusion)
 
 
 ## [Torch Script](https://docs.pytorch.org/docs/main/jit.html) ##
@@ -36,9 +37,13 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [Loading a TorchScript Model in C++](https://docs.pytorch.org/tutorials/advanced/cpp_export.html)
 
 
+## vLLM ##
+
+* https://docs.vllm.ai/en/latest/getting_started/quickstart.html#installation
+
+
 ## Additional ##
 
 * [CPU, GPU, and NPU](https://levysoft.medium.com/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747)
 * [파이썬 코딩도장](https://dojang.io/course/view.php?id=7)
 * [Introduction to KubernetesExecutor and KubernetesPodOperator](https://medium.com/uncanny-recursions/introduction-to-kubernetesexecutor-and-kubernetespodoperator-ae9bb809e3b3)
-* [Amazon Trainium and Inferentia workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/06367dba-1077-4a51-967c-477dbbbb48b1/en-US/inf2-lab/stable-diffusion)
