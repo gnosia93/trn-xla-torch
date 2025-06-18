@@ -1,6 +1,6 @@
 #### 패키지 설치 ####
 ```
-source /opt/aws_neuronx_venv_pytorch_2_6/bin/activate
+source aws_neuron_venv_pytorch/bin/activate 
 pip install -U "numpy" "protobuf<4" "transformers==4.27.3" datasets==2.4.0 scikit-learn==1.2.2 evaluate==v0.4.0
 mkdir ~/vt
 cd ~/vt
