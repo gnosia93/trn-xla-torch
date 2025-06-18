@@ -1,21 +1,12 @@
 ## [PyTorch Neuron (“torch-neuronx”) Setup on Amazon Linux 2023](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/setup/neuron-setup/pytorch/neuronx/amazon-linux/torch-neuronx-al2023.html#setup-torch-neuronx-al2023) ##
 
 
-#### trn1 인스턴스 생성 ####
+### 1. trn1 인스턴스 생성 ###
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
-Please follow the instructions at launch an Amazon EC2 Instance to launch an instance. When choosing the instance type at the EC2 console, please make sure to select the correct instance type.
+trn1.2xlarge / Amazon Linux 2023 AMI / EBS volume size to a minimum of 512GB.
 
-To get more information about instances sizes and pricing see: Trn1 web page, Inf2 web page
-
-Select Amazon Linux 2023 AMI
-
-When launching a Trn1, please adjust your primary EBS volume size to a minimum of 512GB.
-
-After launching the instance, follow the instructions in Connect to your instance to connect to the instance
-
-
-#### 드라이버 설치 ####
+### 2. Neuron 드라이버 설치 ###
 ```
 # Configure Linux for Neuron repository updates
 sudo tee /etc/yum.repos.d/neuron.repo > /dev/null <<EOF
@@ -50,7 +41,7 @@ sudo yum install aws-neuronx-tools-2.* -y
 export PATH=/opt/aws/neuron/bin:$PATH
 ```
 
-#### EFA 설치 ####
+### 3. EFA 설치 ###
 ```
 # Install EFA Driver (only required for multi-instance training)
 curl -O https://efa-installer.amazonaws.com/aws-efa-installer-latest.tar.gz 
@@ -63,7 +54,7 @@ cd
 sudo rm -rf aws-efa-installer-latest.tar.gz aws-efa-installer
 ```
 
-#### torch-neuronx 설치 (pytorch 2.6) ####
+### 4. torch-neuronx 파이썬 패키지 설치 (pytorch 2.6) ###
 ```
 # Install External Dependency
 sudo yum install -y libxcrypt-compat
@@ -96,7 +87,7 @@ python -m pip install neuronx-cc==2.* torch-neuronx torchvision
 ```
 
 
-#### neuronx 환경 체크 ####
+### 5. neuronx 환경 체크 ###
 ```
 [ec2-user@ip-172-31-76-174 ~]$ source /opt/aws_neuronx_venv_pytorch_2_6/bin/activate
 (aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$
@@ -122,7 +113,7 @@ Requires: libneuronxla, numpy, protobuf, psutil, torch, torch-xla
 Required-by: neuronx-distributed
 ```
 
-#### 디바이스 체크 ####
+### 6. 디바이스 체크 ###
 ```
 (aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ lscpu
 Architecture:             x86_64
@@ -204,13 +195,13 @@ instance-id: i-0a07d4c92c2670ba7
 +--------+--------+--------+--------------+
 ```
 
-#### 모니터링 ####
+### 7. 모니터링 ###
 ```
 (aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-top
 ```
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/neuron-top.png)
 
-#### vscode 리모트 서버 설치 ###
+### 8. vscode 리모트 서버 설치 ###
 
 Access through VS Code remote server
 With Visual Studio Code installed on your local machine, you can use the Remote-SSH command to edit and run files that are stored on a Neuron instance. See the VS Code article for additional details.
