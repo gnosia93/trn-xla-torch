@@ -7,6 +7,7 @@
 trn1.2xlarge / Amazon Linux 2023 AMI / 512GB 이상 EBS
 
 ### 2. Neuron 드라이버 설치 ###
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ssh-login.png)
 ```
 # Configure Linux for Neuron repository updates
 sudo tee /etc/yum.repos.d/neuron.repo > /dev/null <<EOF
