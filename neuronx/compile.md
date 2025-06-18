@@ -107,3 +107,21 @@ if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
     sys.exit(main())
 ```
+
+```
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 driver]$ ls
+Actions.cpython-310-x86_64-linux-gnu.so         JobRegistry.cpython-310-x86_64-linux-gnu.so
+Arguments.cpython-310-x86_64-linux-gnu.so       MetricSaver.cpython-310-x86_64-linux-gnu.so
+CommandDriver.cpython-310-x86_64-linux-gnu.so   Pipeline.cpython-310-x86_64-linux-gnu.so
+ContextUtils.cpython-310-x86_64-linux-gnu.so    State.cpython-310-x86_64-linux-gnu.so
+Exceptions.cpython-310-x86_64-linux-gnu.so      TimeRegion.cpython-310-x86_64-linux-gnu.so
+GlobalState.cpython-310-x86_64-linux-gnu.so     __init__.cpython-310-x86_64-linux-gnu.so
+HelpFormatter.cpython-310-x86_64-linux-gnu.so   commands
+InstanceFamily.cpython-310-x86_64-linux-gnu.so  jobs
+Job.cpython-310-x86_64-linux-gnu.so             metrics
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 driver]$ pwd
+/opt/aws_neuronx_venv_pytorch_2_6/lib/python3.10/site-packages/neuronxcc/driver
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 driver]$ ls -la CommandDriver.cpython-310-x86_64-linux-gnu.so 
+-rwxrwxr-x. 1 ec2-user ec2-user 1175608 May 20 18:09 CommandDriver.cpython-310-x86_64-linux-gnu.so
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 driver]$ 
+```
