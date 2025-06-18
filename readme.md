@@ -5,8 +5,6 @@ As a part of the OpenXLA project, XLA is built collaboratively by industry-leadi
 
 * [PyTorch/XLA](https://docs.pytorch.org/xla/release/r2.7/index.html)
 * [PJRT Plugin to Accelerate Machine Learning](https://opensource.googleblog.com/2024/03/pjrt-plugin-to-accelerate-machine-learning.html)
-* [Neuron Kernel Interface (NKI)](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html)  
-a bare-metal language and compiler for directly programming NeuronDevices available on AWS Trn/Inf instances. You can use NKI to develop, optimize and run new operators directly on NeuronCores while making full use of available compute and memory resources. NKI empowers ML developers to self-serve and invent new ways to use the NeuronCore hardware, starting NeuronCores v2 (Trainium1) and beyond.
 
 #### AWS Accelerators ####
 
@@ -14,7 +12,7 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
 * [Amazon Trainium and Inferentia workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/06367dba-1077-4a51-967c-477dbbbb48b1/en-US/inf2-lab/stable-diffusion)
 
-#### Neuron ####
+## Neuron ##
 
 * [Neuron Runtime](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-runtime/nrt-api-guide.html#nrt-api-guide)
 Library (libnrt) is the intermediate layer between Application + Framework and Neuron Driver + Neuron Device. It provides a C API for initializing the Neuron hardware, staging models and input data, executing inferences and training iterations on the staged models, and retrieving output data
@@ -22,6 +20,9 @@ Library (libnrt) is the intermediate layer between Application + Framework and N
 * [Neuron Compiler](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/compiler/index.html)
 * [Neuron Custom C++ Operators in MLP Training](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-customops/tutorials/customop-mlp-training.html#neuronx-customop-mlp-tutorial)
 * [Deploy Containers with Neuron](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/containers/index.html)
+* [Neuron Kernel Interface (NKI)](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html)  
+a bare-metal language and compiler for directly programming NeuronDevices available on AWS Trn/Inf instances. You can use NKI to develop, optimize and run new operators directly on NeuronCores while making full use of available compute and memory resources. NKI empowers ML developers to self-serve and invent new ways to use the NeuronCore hardware, starting NeuronCores v2 (Trainium1) and beyond.
+
   
 ## [Torch Script](https://docs.pytorch.org/docs/main/jit.html) ##
 
