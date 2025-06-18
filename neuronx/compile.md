@@ -13,6 +13,32 @@ drwxrwxr-x.  2 ec2-user ec2-user    90 May 20 18:10 __pycache__
 ```
 
 ```
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 libneuronxla]$ pwd
+/opt/aws_neuronx_venv_pytorch_2_6/lib/python3.10/site-packages/libneuronxla
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 libneuronxla]$ ls -la
+total 196288
+drwxrwxr-x.   4 ec2-user ec2-user     16384 May 20 18:10 .
+drwxr-xr-x. 519 ec2-user root         32768 Jun 18 04:17 ..
+-rw-rw-r--.   1 ec2-user ec2-user      9806 May 20 18:10 LICENSE.txt
+-rw-rw-r--.   1 ec2-user ec2-user    219180 May 20 18:10 THIRD-PARTY-LICENSES.txt
+-rw-rw-r--.   1 ec2-user ec2-user      1795 May 20 18:10 __init__.py
+drwxrwxr-x.   2 ec2-user ec2-user     16384 May 20 18:10 __pycache__
+-rw-rw-r--.   1 ec2-user ec2-user       939 May 20 18:10 analyze_interface.py
+-rw-rw-r--.   1 ec2-user ec2-user       919 May 20 18:10 hook.py
+-rw-rw-r--.   1 ec2-user ec2-user      7531 May 20 18:10 libncc.py
+-rwxrwxr-x.   1 ec2-user ec2-user 200595072 May 20 18:10 libneuronpjrt.so
+-rw-rw-r--.   1 ec2-user ec2-user       309 May 20 18:10 libneuronpjrt_path.py
+-rw-rw-r--.   1 ec2-user ec2-user      1597 May 20 18:10 libnrt.py
+-rw-rw-r--.   1 ec2-user ec2-user       508 May 20 18:10 logger.py
+-rw-rw-r--.   1 ec2-user ec2-user     21272 May 20 18:10 neuron_cc_cache.py
+-rw-rw-r--.   1 ec2-user ec2-user     17424 May 20 18:10 neuron_cc_wrapper.py
+-rw-rw-r--.   1 ec2-user ec2-user       808 May 20 18:10 profiler.py
+drwxrwxr-x.   3 ec2-user ec2-user       106 May 20 18:10 proto
+-rw-rw-r--.   1 ec2-user ec2-user      3220 May 20 18:10 version.py
+```
+
+
+```
 def compile_task_helper(compiled_hlo_status, compile_cache, task_list, workdir, dump=None, compile_work_dir=None):
     counter = 0
     for hlo_to_compile in list(task_list):
@@ -42,4 +68,31 @@ def compile_task_helper(compiled_hlo_status, compile_cache, task_list, workdir, 
             hlos_rem, *_ = compile_cache.get_hlos()
             if len(hlos_rem) == 0:
                 break
+```
+
+```
+def call_neuron_compiler(work_dir, input_file, compile_flags,
+                         output_file, execution_mode=ExecutionMode.LAZY,
+                         framework="XLA", dump=None):
+    cmd = ["neuronx-cc",
+           "compile",
+           f"--framework={framework}",
+           input_file,
+           "--output",
+           output_file, ] + compile_flags
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        if dump is not None:
+            tmpdir = os.path.abspath(dump)
+            tmpdir = os.path.join(
+                tmpdir, f'pid{os.getpid()}-program{GlobalCounter()()}')
+            os.makedirs(tmpdir, exist_ok=True)
+            cmd.extend(['--pipeline', 'compile', 'SaveTemps'])
+            ver_cmd = ['neuronx-cc', '--version']
+            ncc_version = subprocess.check_output(
+                ver_cmd, stderr=subprocess.STDOUT).decode()
+            ncc_version, *_ = ncc_version.split('\n')
+            *_, ncc_version = ncc_version.split('version ')
+            with open(os.path.join(tmpdir, 'neuronx_cc_metadata.json'), 'w') as fp:
+                json.dump([ncc_version, cmd], fp)
 ```
