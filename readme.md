@@ -19,9 +19,11 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [Amazon Trainium and Inferentia workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/06367dba-1077-4a51-967c-477dbbbb48b1/en-US/inf2-lab/stable-diffusion)
 
 #### Neuron ####
+
 * [Neuron Runtime](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-runtime/nrt-api-guide.html#nrt-api-guide)
 * [Neuron Compiler](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/compiler/index.html)
-
+* [Neuron Custom C++ Operators in MLP Training](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-customops/tutorials/customop-mlp-training.html#neuronx-customop-mlp-tutorial)
+  
 ## [Torch Script](https://docs.pytorch.org/docs/main/jit.html) ##
 
 * [딥러닝 모델 배포하기 #01 - MLOps PipeLine과 연산 최적화 / 모델 경량화](https://happy-jihye.github.io/dl/torch-1/)
