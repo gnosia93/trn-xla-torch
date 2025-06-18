@@ -182,7 +182,7 @@ neuron-dump.py                 neuron-monitor-device-view.py  neuron-top
 neuron-ls                      neuron-monitor-prometheus.py   
 neuron-monitor                 neuron-monitor-top.py          
 
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-ls
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 ~]$ neuron-ls
 instance-type: trn1.2xlarge
 instance-id: i-0a07d4c92c2670ba7
 +--------+--------+--------+--------------+
