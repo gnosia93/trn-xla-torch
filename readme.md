@@ -18,6 +18,7 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 
 * [Neuron Runtime](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-runtime/nrt-api-guide.html#nrt-api-guide)
 ![](https://github.com/gnosia93/trn-xla-torch/blob/main/neuronx/images/neuron-runtime.png)
+The Neuron Runtime Library (libnrt) is the intermediate layer between Application + Framework and Neuron Driver + Neuron Device. It provides a C API for initializing the Neuron hardware, staging models and input data, executing inferences and training iterations on the staged models, and retrieving output data
 
 * [Neuron Compiler](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/compiler/index.html)
 * [Neuron Custom C++ Operators in MLP Training](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-customops/tutorials/customop-mlp-training.html#neuronx-customop-mlp-tutorial)
