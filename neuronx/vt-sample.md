@@ -71,6 +71,8 @@ XLA_USE_BF16=1 NEURON_CC_FLAGS="--cache_dir=./compiler_cache" \
     --overwrite_output_dir \
     --output_dir vit-image-classification
 ```
+![](https://github.com/gnosia93/trn-xla-torch/blob/main/neuronx/images/torchrun-1.png)
+
 ```
 source aws_neuron_venv_pytorch/bin/activate 
 neuron-top
