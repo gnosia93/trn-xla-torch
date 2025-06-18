@@ -15,7 +15,7 @@ numpy                     1.26.4
 
 ### 트레이닝 ###
 
-#### 싱글 노드 트레이닝 ####
+#### 1. 싱글 노드 트레이닝 ####
 ```
 # 컴파일
 XLA_USE_BF16=1 neuron_parallel_compile \
@@ -36,7 +36,7 @@ XLA_USE_BF16=1 neuron_parallel_compile \
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/neuron-cc-1.png)
 
 
-#### 분산 트레이닝 ####
+#### 2. 분산 트레이닝 ####
 ```
 # 컴파일
 XLA_USE_BF16=1 NEURON_CC_FLAGS="--cache_dir=./compiler_cache" neuron_parallel_compile \
