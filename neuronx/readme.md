@@ -2,7 +2,6 @@
 
 
 #### trn1 인스턴스 생성 ####
-* [Neuron DLAMI User Guide](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/dlami/index.html)
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
 Please follow the instructions at launch an Amazon EC2 Instance to launch an instance. When choosing the instance type at the EC2 console, please make sure to select the correct instance type.
