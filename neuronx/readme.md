@@ -1,4 +1,4 @@
-## [PyTorch Neuron (“torch-neuronx”) Setup](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/setup/neuron-setup/pytorch/neuronx/amazon-linux/torch-neuronx-al2023.html#setup-torch-neuronx-al2023) ##
+## [Trn 생성 및 환경설정](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/setup/neuron-setup/pytorch/neuronx/amazon-linux/torch-neuronx-al2023.html#setup-torch-neuronx-al2023) ##
 
 
 ### 1. trn1 인스턴스 생성 ###
