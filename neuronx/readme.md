@@ -111,5 +111,9 @@ instance-id: i-0a07d4c92c2670ba7
 +--------+--------+--------+--------------+
 ```
 
+#### 모니터링 ####
+```
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-top
+```
 
 #### vscode 서버 설치 ###
