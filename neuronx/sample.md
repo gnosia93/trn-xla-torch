@@ -9,7 +9,7 @@ cd transformers/examples/pytorch/image-classification
 #wget https://ud-workshop.s3.amazonaws.com/compiler_cache.tar
 #tar -xvf compiler_cache.tar
 
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ pip list | grep numpy
+pip list | grep numpy
 numpy                     1.26.4
 ```
 
