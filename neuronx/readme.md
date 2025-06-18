@@ -3,6 +3,16 @@
 * [Neuron DLAMI User Guide](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/dlami/index.html)
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
+Please follow the instructions at launch an Amazon EC2 Instance to launch an instance. When choosing the instance type at the EC2 console, please make sure to select the correct instance type.
+
+To get more information about instances sizes and pricing see: Trn1 web page, Inf2 web page
+
+Select Amazon Linux 2023 AMI
+
+When launching a Trn1, please adjust your primary EBS volume size to a minimum of 512GB.
+
+After launching the instance, follow the instructions in Connect to your instance to connect to the instance
+
 #### neuronx 환경 체크 ####
 ```
 [ec2-user@ip-172-31-76-174 ~]$ source /opt/aws_neuronx_venv_pytorch_2_6/bin/activate
