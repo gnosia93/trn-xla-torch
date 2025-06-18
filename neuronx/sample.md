@@ -1,6 +1,6 @@
 
 ```
-pip install -U "numpy<=1.20.0" "protobuf<4" "transformers==4.27.3" datasets==2.4.0 scikit-learn==1.2.2 evaluate==v0.4.0
+pip install -U "numpy" "protobuf<4" "transformers==4.27.3" datasets==2.4.0 scikit-learn==1.2.2 evaluate==v0.4.0
 mkdir ~/vit_train
 cd ~/vit_train
 git clone https://github.com/huggingface/transformers.git --branch v4.27.3
