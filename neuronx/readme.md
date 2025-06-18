@@ -1,4 +1,5 @@
 * [Neuron DLAMI User Guide](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/dlami/index.html)
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
 ```
 [ec2-user@ip-172-31-76-174 ~]$ source /opt/aws_neuronx_venv_pytorch_2_6/bin/activate
