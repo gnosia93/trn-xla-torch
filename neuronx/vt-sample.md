@@ -1,4 +1,4 @@
-#### 트랜스포머 설치 ####
+### 트랜스포머 설치 ###
 ```
 source aws_neuron_venv_pytorch/bin/activate 
 pip install -U "numpy" "protobuf<4" "transformers==4.27.3" datasets==2.4.0 scikit-learn==1.2.2 evaluate==v0.4.0
@@ -13,7 +13,9 @@ pip list | grep numpy
 numpy                     1.26.4
 ```
 
-#### 컴파일 ####
+### 컴파일 ###
+
+#### 싱글 노드 트레이닝 ####
 ```
 XLA_USE_BF16=1 neuron_parallel_compile \
     python3 run_image_classification.py \
@@ -31,3 +33,22 @@ XLA_USE_BF16=1 neuron_parallel_compile \
     --output_dir vit-image-classification
 ```
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/neuron-cc-1.png)
+
+
+#### 분산 트레이닝 ####
+```
+XLA_USE_BF16=1 NEURON_CC_FLAGS="--cache_dir=./compiler_cache" neuron_parallel_compile \
+    torchrun --nproc_per_node=2 run_image_classification.py \
+    --model_name_or_path "google/vit-base-patch16-224-in21k" \
+    --dataset_name beans \
+    --do_train \
+    --num_train_epochs 2 \
+    --per_device_train_batch_size 8 \
+    --learning_rate 2e-5 \
+    --save_strategy epoch \
+    --save_total_limit 1 \
+    --seed 1337 \
+    --remove_unused_columns False \
+    --overwrite_output_dir \
+    --output_dir vit-image-classification
+```
