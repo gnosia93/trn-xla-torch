@@ -17,6 +17,8 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 #### Neuron ####
 
 * [Neuron Runtime](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-runtime/nrt-api-guide.html#nrt-api-guide)
+![](https://github.com/gnosia93/trn-xla-torch/blob/main/neuronx/images/neuron-runtime.png)
+
 * [Neuron Compiler](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/compiler/index.html)
 * [Neuron Custom C++ Operators in MLP Training](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-customops/tutorials/customop-mlp-training.html#neuronx-customop-mlp-tutorial)
 * [Deploy Containers with Neuron](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/containers/index.html)
