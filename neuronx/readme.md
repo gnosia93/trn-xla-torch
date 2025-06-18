@@ -90,18 +90,15 @@ python -m pip install neuronx-cc==2.* torch-neuronx torchvision
 
 ### 5. neuronx 환경 체크 ###
 ```
-[ec2-user@ip-172-31-76-174 ~]$ source /opt/aws_neuronx_venv_pytorch_2_6/bin/activate
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$
-
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 bin]$ python
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 bin]$ python
 Python 3.10.12 (main, May 20 2025, 17:57:16) [GCC 11.5.0 20240719 (Red Hat 11.5.0-5)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import sys
 >>> sys.executable
-'/opt/aws_neuronx_venv_pytorch_2_6/bin/python'
+'/opt/aws_neuronx_venv_pytorch/bin/python'
 >>> quit()
 
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 bin]$ pip show torch_neuronx
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 bin]$ pip show torch_neuronx
 Name: torch-neuronx
 Version: 2.6.0.2.7.5413+113e6810
 Summary: UNKNOWN
