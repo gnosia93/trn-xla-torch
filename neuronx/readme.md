@@ -115,6 +115,7 @@ instance-id: i-0a07d4c92c2670ba7
 ```
 (aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-top
 ```
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/neuron-top.png)
 
 #### vscode 리모트 서버 설치 ###
 
