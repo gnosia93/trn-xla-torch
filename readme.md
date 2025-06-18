@@ -18,9 +18,9 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [Fine-tune BERT for Text Classification on AWS Trainium](https://huggingface.co/docs/optimum-neuron/tutorials/fine_tune_bert)
 * [Amazon Trainium and Inferentia workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/06367dba-1077-4a51-967c-477dbbbb48b1/en-US/inf2-lab/stable-diffusion)
 
-#### Neuron Runtime ####
-* https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-runtime/nrt-api-guide.html#nrt-api-guide
-
+#### Neuron ####
+* [Neuron Runtime](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/neuron-runtime/nrt-api-guide.html#nrt-api-guide)
+* [Neuron Compiler](https://awsdocs-neuron.readthedocs-hosted.com/en/v2.9.1/compiler/index.html)
 
 ## [Torch Script](https://docs.pytorch.org/docs/main/jit.html) ##
 
