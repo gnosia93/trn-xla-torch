@@ -15,7 +15,7 @@ numpy                     1.26.4
 
 #### 컴파일 ####
 ```
-XLA_USE_BF16=1 neuron_parallel_compile NEURON_CC_FLAGS="--model-type transformer" \
+XLA_USE_BF16=1 neuron_parallel_compile \
     python3 run_image_classification.py \
     --model_name_or_path "google/vit-base-patch16-224-in21k" \
     --dataset_name beans \
