@@ -1,3 +1,5 @@
+
+### trn1 인스턴스 생성 ###
 * [Neuron DLAMI User Guide](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/dlami/index.html)
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
@@ -13,6 +15,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 '/opt/aws_neuronx_venv_pytorch_2_6/bin/python'
 >>> quit()
 
+### neuronx 환경 활성화 ###
 (aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 bin]$ pip show torch_neuronx
 Name: torch-neuronx
 Version: 2.6.0.2.7.5413+113e6810
