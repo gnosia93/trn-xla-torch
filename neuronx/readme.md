@@ -3,7 +3,7 @@
 * [Neuron DLAMI User Guide](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/dlami/index.html)
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
-#### neuronx 환경 활성화 ####
+#### neuronx 환경 체크 ####
 ```
 [ec2-user@ip-172-31-76-174 ~]$ source /opt/aws_neuronx_venv_pytorch_2_6/bin/activate
 (aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$
@@ -28,3 +28,5 @@ Location: /opt/aws_neuronx_venv_pytorch_2_6/lib/python3.10/site-packages
 Requires: libneuronxla, numpy, protobuf, psutil, torch, torch-xla
 Required-by: neuronx-distributed
 ```
+
+#### vscode 서버 설치 ###
