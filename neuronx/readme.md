@@ -113,7 +113,7 @@ Required-by: neuronx-distributed
 
 ### 6. 디바이스 체크 ###
 ```
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ lscpu
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 ~]$ lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
   Address sizes:          46 bits physical, 48 bits virtual
@@ -166,7 +166,7 @@ Vulnerabilities:
   Srbds:                  Not affected
   Tsx async abort:        Not affected
 
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ lspci
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 ~]$ lspci
 00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma]
 00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
 00:01.3 Non-VGA unclassified device: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
@@ -176,13 +176,13 @@ Vulnerabilities:
 00:1e.0 System peripheral: Amazon.com, Inc. NeuronDevice (Trainium)
 00:1f.0 Non-Volatile memory controller: Amazon.com, Inc. NVMe SSD Controller
 
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 ~]$ neuron-
 neuron-bench                   neuron-monitor-cloudwatch.py   neuron-profile
 neuron-dump.py                 neuron-monitor-device-view.py  neuron-top
 neuron-ls                      neuron-monitor-prometheus.py   
 neuron-monitor                 neuron-monitor-top.py          
 
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-ls
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 ~]$ neuron-ls
 instance-type: trn1.2xlarge
 instance-id: i-0a07d4c92c2670ba7
 +--------+--------+--------+--------------+
@@ -195,7 +195,7 @@ instance-id: i-0a07d4c92c2670ba7
 
 ### 7. 모니터링 ###
 ```
-(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-top
+(aws_neuronx_venv_pytorch) [ec2-user@ip-172-31-76-174 ~]$ neuron-top
 ```
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/neuron-top.png)
 
