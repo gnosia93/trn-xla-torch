@@ -61,7 +61,7 @@ XLA_USE_BF16=1 NEURON_CC_FLAGS="--cache_dir=./compiler_cache" \
     --dataset_name beans \
     --do_train \
     --do_eval \
-    --num_train_epochs 2 \
+    --num_train_epochs 20 \
     --per_device_train_batch_size 8 \
     --learning_rate 2e-5 \
     --save_strategy epoch \
