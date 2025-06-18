@@ -93,6 +93,21 @@ Vulnerabilities:
 00:05.0 Ethernet controller: Amazon.com, Inc. Elastic Network Adapter (ENA)
 00:1e.0 System peripheral: Amazon.com, Inc. NeuronDevice (Trainium)
 00:1f.0 Non-Volatile memory controller: Amazon.com, Inc. NVMe SSD Controller
+
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-
+neuron-bench                   neuron-monitor-cloudwatch.py   neuron-profile
+neuron-dump.py                 neuron-monitor-device-view.py  neuron-top
+neuron-ls                      neuron-monitor-prometheus.py   
+neuron-monitor                 neuron-monitor-top.py          
+(aws_neuronx_venv_pytorch_2_6) [ec2-user@ip-172-31-76-174 ~]$ neuron-ls
+instance-type: trn1.2xlarge
+instance-id: i-0a07d4c92c2670ba7
++--------+--------+--------+--------------+
+| NEURON | NEURON | NEURON |     PCI      |
+| DEVICE | CORES  | MEMORY |     BDF      |
++--------+--------+--------+--------------+
+| 0      | 2      | 32 GB  | 0000:00:1e.0 |
++--------+--------+--------+--------------+
 ```
 
 
