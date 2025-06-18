@@ -1,7 +1,3 @@
-
-  
-
- 
 ## [XLA](https://openxla.org/xla) ##
 XLA (Accelerated Linear Algebra) is an open-source compiler for machine learning. The XLA compiler takes models from popular frameworks such as PyTorch, TensorFlow, and JAX, and optimizes the models for high-performance execution across different hardware platforms including GPUs, CPUs, and ML accelerators.
 
@@ -34,19 +30,14 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [TorchScript and PyTorch JIT | Deep Dive](https://www.youtube.com/watch?v=2awmrMRf0dA)
 
 
-## vLLM ##
+## References ##
 
-* https://docs.vllm.ai/en/latest/getting_started/quickstart.html#installation
-
-
-## Additional ##
-
+* [vLLM](https://docs.vllm.ai/en/latest/getting_started/quickstart.html#installation)
 * [CPU, GPU, and NPU](https://levysoft.medium.com/cpu-gpu-and-npu-understanding-key-differences-and-their-roles-in-artificial-intelligence-2913a24d0747)
-* [파이썬 코딩도장](https://dojang.io/course/view.php?id=7)
 * [LLMs](https://wikidocs.net/book/13922)
+
+----
+
 * [Introduction to KubernetesExecutor and KubernetesPodOperator](https://medium.com/uncanny-recursions/introduction-to-kubernetesexecutor-and-kubernetespodoperator-ae9bb809e3b3)
-
----
-
 * https://developer.arm.com/documentation/102374/0102/Data-processing---arithmetic-and-logic-operations
-* [OpenMP](https://junstar92.tistory.com/234#:~:text=OpenMP%EB%8A%94%20Pthreads%EC%99%80%20%EA%B0%99%EC%9D%80%20API%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B3%A0%EC%84%B1%EB%8A%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84,level%EC%97%90%EC%84%9C%20%EA%B0%9C%EB%B0%9C%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8F%84%EB%A1%9D%20OpenMP%20%EC%8A%A4%ED%8E%99%EC%9D%84%20%EC%A0%95%EC%9D%98%ED%95%98%EC%98%80%EC%8A%B5%EB%8B%88%EB%8B%A4.)
+
