@@ -2,6 +2,11 @@
 
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/vscode-remote-2.png)
 
-
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/vscode-remote-3.png)
+
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/vscode-remote-4.png)
+
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/vscode-remote-5.png)
+
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/vscode-remote-6.png)
 
