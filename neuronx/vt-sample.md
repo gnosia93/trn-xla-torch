@@ -30,3 +30,4 @@ XLA_USE_BF16=1 neuron_parallel_compile \
     --overwrite_output_dir \
     --output_dir vit-image-classification
 ```
+![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/neuron-cc-1.png)
