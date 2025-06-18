@@ -4,7 +4,7 @@
 ### 1. trn1 인스턴스 생성 ###
 ![](https://github.com/gnosia93/xla-torch/blob/main/neuronx/images/ec2-trn1.png)
 
-trn1.2xlarge / Amazon Linux 2023 AMI / EBS volume size to a minimum of 512GB.
+trn1.2xlarge / Amazon Linux 2023 AMI / 512GB 이상 EBS
 
 ### 2. Neuron 드라이버 설치 ###
 ```
