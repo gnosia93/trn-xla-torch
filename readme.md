@@ -43,4 +43,4 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 
 * [Introduction to KubernetesExecutor and KubernetesPodOperator](https://medium.com/uncanny-recursions/introduction-to-kubernetesexecutor-and-kubernetespodoperator-ae9bb809e3b3)
 * https://developer.arm.com/documentation/102374/0102/Data-processing---arithmetic-and-logic-operations
-
+* [Dive into Deep Learning Compiler](https://tvm.d2l.ai/index.html#)
