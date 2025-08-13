@@ -33,7 +33,7 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [TorchScript and PyTorch JIT | Deep Dive](https://www.youtube.com/watch?v=2awmrMRf0dA)
 
 
-## [trainium](https://aws.amazon.com/ko/ai/machine-learning/trainium/) ##
+## [Trainium](https://aws.amazon.com/ko/ai/machine-learning/trainium/) ##
 
 * [Train Llama2 with AWS Trainium on Amazon EKS](https://aws.amazon.com/ko/blogs/containers/train-llama2-with-aws-trainium-on-amazon-eks/)
   - https://github.com/awslabs/data-on-eks/tree/trn1-karp
