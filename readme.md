@@ -39,6 +39,8 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
   - https://github.com/awslabs/data-on-eks/tree/trn1-karp
 
 
+### [Nemo](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html) ###
+NeMo Framework provides tools for efficient training and customization of LLMs and Multimodal models. It includes default configurations for compute cluster setup, data downloading, and model hyperparameters, which can be adjusted to train on new datasets and models. In addition to pre-training, NeMo supports both Supervised Fine-Tuning (SFT) and Parameter Efficient Fine-Tuning (PEFT) techniques like LoRA, Ptuning, and more.
 
 ## References ##
 
