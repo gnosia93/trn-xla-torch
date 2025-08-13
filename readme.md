@@ -42,6 +42,9 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 ### [Nemo](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html) ###
 NeMo Framework provides tools for efficient training and customization of LLMs and Multimodal models. It includes default configurations for compute cluster setup, data downloading, and model hyperparameters, which can be adjusted to train on new datasets and models. In addition to pre-training, NeMo supports both Supervised Fine-Tuning (SFT) and Parameter Efficient Fine-Tuning (PEFT) techniques like LoRA, Ptuning, and more.
 
+### [MPI Operator](https://medium.com/kubeflow/introduction-to-kubeflow-mpi-operator-and-industry-adoption-296d5f2e6edc)
+The MPI Operator makes it easy to run allreduce-style distributed training on Kubernetes. Please check out this blog post for an introduction to MPI Operator and its industry adoption.
+
 ## References ##
 
 * [vLLM](https://docs.vllm.ai/en/latest/getting_started/quickstart.html#installation)
