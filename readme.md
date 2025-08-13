@@ -36,7 +36,7 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 ## [trainium](https://aws.amazon.com/ko/ai/machine-learning/trainium/) ##
 
 * [Train Llama2 with AWS Trainium on Amazon EKS](https://aws.amazon.com/ko/blogs/containers/train-llama2-with-aws-trainium-on-amazon-eks/)
-
+  - https://github.com/awslabs/data-on-eks/tree/trn1-karp
 
 
 
