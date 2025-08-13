@@ -33,6 +33,11 @@ a bare-metal language and compiler for directly programming NeuronDevices availa
 * [TorchScript and PyTorch JIT | Deep Dive](https://www.youtube.com/watch?v=2awmrMRf0dA)
 
 
+## trainium ##
+
+* https://aws.amazon.com/ko/ai/machine-learning/trainium/
+
+
 ## References ##
 
 * [vLLM](https://docs.vllm.ai/en/latest/getting_started/quickstart.html#installation)
